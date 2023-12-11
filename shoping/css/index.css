@@ -1,0 +1,284 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.red{
+    color:#c81623;
+}
+@font-face {font-family: "iconfont";
+    src: url('../fonts/iconfont.eot?t=1597644775030'); /* IE9 */
+    src: url('../fonts/iconfont.eot?t=1597644775030#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAXIAAsAAAAADIwAAAV4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCELAqKFIhDATYCJAMwCxoABCAFhG0HgTob1wpRlFBOJ9kX2DbsSYVaMDvuuKMLqiCA+FBoBgAAAACAN4NTPPy33//2mZkr9hDTSBRdnUTS9BOavaolSmF1OqFCvliG+vddezNmG/8R1IgU+v5e2h5QLp+en9NTakJucm7zr2v+D55rCRVUPJCcYOqTn6A6ivpBJbzHRifdvM0HgP73f4Ps378/VrxRtguWz54tyFfcirzo5gqQGo8KKj+gChK5h3RVe+EkXEygt13Zwvnb5zdYV3D6wCrXfatg3eZQQnihNdc+BxbxSqVNj9MZ8FL9/virGeskVcZd6sLSjQfns6TQHi1XuZQfeZSfD7fDyDgKFOKTb+ANyHr+UUv6T+liCVjJ+5bI6+NmXPkJQhN6LkogldGaDJFKiZTDf/FASIpKrZG1Or2BqHGGkRjvCgZmSREJZjMkMbsihdkPqZgDkZo5CGmYaUhmZiAtczDSMYcgPXPoSEOdDtgI7ARxGyBtwSyX6rlxErJKlgVfasu0s+g6YdVx3BAH65eXu3HdyPS1KMO7XaRUZHwDhlZz1Gnd3UymGPVeiVE1JYa2dlV10jK8d08fm5ICrLWMdOaMBKzuRjLCbk5lr7duylRDzkbLmmQ1dWGjerN1vWqNNjpZNdU6Uz0djfKvH8LqSzusTsirlu5qJuV1CT0Jc7dcJmRyxBO65yb7xOLjOiM+l0SiBFMCJtK6WyarxKhdrRJ0ZvV0y/tEOPLgsX+vBCiQy6Xd3REA4UF5GSK8aBQFIonjha25d6c4dO92+KAyzA3/6ZHrqW+4tIcH+v099e4uCg7cWlDmr+XAXUupv8xD9prG5aLc8J4lv2VKotlSE+1DbARxfVGEHZ3qQKNn0gj7xPjMhEQ7ghqb4ECl28Xa02kO8ZZXrNYrthzPE/ojNxKNKpVbjIoQdUEoPE+ixLcWoSa02SI6BG41ycHoKeOor4J/Ka75ysHwCvQXOUPqDYAtavZmHTExN0EAUPIdMFHSlRcpVRiyNZ2deswvA2TCF3bAFM9dz90ua5QEhAk2izQLhgnJPaMt9wtuUwBPmt803fUzNstHmqqYaJBqa2qfCQ8VFVUA2Dw/nymzlc/+W1VdlRSvmmADg/yenhgmWvkduRIQS0vDIC+VvRAbpF23Bh0iHRUdKze3HLeAzcH6yJldeiOqOolMXeFY1h06EoQjvBKkysrQ0X3MpQ1QeYcfH4clLe9VilZAdZ3wl87jB9gVBvjzQkxOBHDHdb4/fwpq15kMNaaT6K2SymkciIlt5D92UisqJsfH3N3IZNG9P1lsXkeKHhapW8ELp/3CuKS4WAz4Jokj5/ylHHAjLkZ6B8CTnNpzTIDKb0pi58qfsyQg/Uj/IR9JpV+Na0tY3sp8P6fVQ8gbUhWQ7i5+tNPOKN8ODgRfZBfbI9Hj/9rhBJz2PWp/lFjeKvIpaCViK48tZcwe5avmnGN5d43YSGD0fEvLJfT8CI6syGq/ZZjWxTY4kE3rTEga2yBr7aUUxlGoDI5BrXUKekfcHT5Ygy2J0uGwT4Cw0hckC18hW+mbUhg/UFnvH2orYwl6F2PNCQf7w988x6SEPBzN0ddpYgS3bGpVX8iOI8VWtcr/IC78NDaqdWfRHSXEeexSTGxTxKDhNMZbuBxFUYoZpwFpqTqRbFirGb8nquo0hk3nMKII4kEjc8inpRJGHl1sur7+BbHGIgqHtPmR/EBYwV88aqiqx6DcGZJYbdaldmHCahLyGSg2ZqkYuiUfifj8FMr81wsQTVS5FLnMUI36MnEN1fJN8RSfBz3uxmOkyFGiijqaaKOLPoYYY7K442tHkk8lkeiu7A+LLrCtJem4szLzVaQ2vJIVoWKEFXqPxpVoEi2iTXSIrr8HAAAAAA==') format('woff2'),
+    url('../fonts/iconfont.woff?t=1597644775030') format('woff'),
+    url('../fonts/iconfont.ttf?t=1597644775030') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('../fonts/iconfont.svg?t=1597644775030#iconfont') format('svg'); /* iOS 4.1- */
+  }
+  /* 首页专属main模块开始 */
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.main{
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.focus{
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+.newsflash{
+    float: right;
+    width: 251px;
+    height: 455px;
+    /* border: 1px solid #e4e4e4; */
+}
+.news{
+    width: 251px;
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.news h4 a{
+    float: left;
+    width: 251px;
+    height: 32px;
+    display: block;
+    line-height: 32px;
+    padding-left: 10px;
+    font-size: 14px;
+    /* 定义虚线边框 */
+    border-bottom: 1px dashed #e4e4e4;
+}
+.news h4 a::after{
+    float: right;
+    content: "更多 \e635";
+    font-family: "iconfont";
+    padding-right: 15px;
+    font-size: 14px;
+}
+.news ul li h5{
+    float: left;
+    padding-left: 10px;
+}
+.news ul li{
+    float: left;
+    margin: 4px 0;
+}
+.lifeservice{
+    overflow: hidden;
+    width: 251px;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: none;
+}
+.lifeservice ul{
+    width: 252px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    border-left: none;
+    border-top: none;
+}
+.lifeservice ul li a i{
+    display: block;
+    width: 25px;
+    height: 28px;
+    margin-left: 19px;
+    margin-top: 12px;
+}
+.i_1{
+    background: url(../images/icons.png) no-repeat -18px -14px;
+}
+.i_2{
+    background: url(../images/icons.png) no-repeat -78px -14px;
+}
+.i_3{
+    background: url(../images/icons.png) no-repeat -142px -14px;
+}
+.i_4{
+    background: url(../images/icons.png) no-repeat -205px -14px;
+}
+.i_5{
+    background: url(../images/icons.png) no-repeat -18px -85px;
+}
+.i_6{
+    background: url(../images/icons.png) no-repeat -78px -85px;
+}
+.i_7{
+    background: url(../images/icons.png) no-repeat -141px -85px;
+}
+.i_8{
+    background: url(../images/icons.png) no-repeat -206px -85px;
+}
+.i_9{
+    background: url(../images/icons.png) no-repeat -17px -159px;
+}
+.i_10{
+    background: url(../images/icons.png) no-repeat -78px -159px;
+}
+.i_11{
+    background: url(../images/icons.png) no-repeat -141px -159px;
+}
+.i_12{
+    background: url(../images/icons.png) no-repeat -206px -159px;
+}
+.bargain{
+    margin-top: 5px;
+}
+/* 首页专属main模块结束 */
+/* 推荐模块开始 */
+.recom{
+    height: 163px;
+    margin-top: 11px;
+    background-color: #ededed;
+}
+.recom-hd{
+    float: left;
+    width: 200px;
+    height: 163px;
+    line-height: 163px;
+    text-align: center;
+    background-color: #5c5251;
+}
+.recom-bd{
+    float: left;
+}
+.recom-bd ul li {
+    position: relative;
+    float: left;
+}
+.recom-bd ul li a img{
+    width: 248px;
+    height: 163px;
+}
+.recom-bd ul li:nth-child(-n+3)::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 143px;
+    background-color: #ddd;
+}
+/* 推荐模块结束 */
+/* 猜你喜欢模块开始 */
+.cai{
+    position: relative;
+    height: 262px;
+    margin-top: 30px;
+}
+.cai_hd h3{
+    float: left;
+    font-size: 18px;
+}
+.cai_hd a{
+    float: right;
+    margin-right: 20px;
+}
+.cai_hd a::after{
+    content: "\e645";
+    font-family: "iconfont";
+    padding-left: 4px;
+}
+.cai_bd{
+    position: absolute;
+    bottom: 0px;
+    width: 1200px;
+    height: 233px;
+    border: 1px solid #ededed;
+}
+.cai_bd ul li {
+    position: relative;
+    float: left;
+}
+.cai_bd ul li a img{
+    width: 199px;
+    height: 231px;
+}
+/* 猜你喜欢模块结束 */
+/* 楼层区floor开始 */
+.floor{
+    margin-top: 26px;
+}
+/* 家用电器 */
+.floor .box_hd{
+    height: 30px;
+    border-bottom: 2px solid #c81623 ;
+}
+.floor .box_hd .left{
+    float: left;
+}
+.floor .box_hd .left h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+.floor .box_hd .tab_list{
+    float: right;
+    line-height: 30px;
+}
+.floor .box_hd .tab_list ul li{
+    float: left;
+}
+.floor .box_hd .tab_list ul li a{
+    padding-left: 14px;
+    padding-right: 16px;
+    font-size: 12px;
+}
+.floor .box_hd .tab_list ul li a .red{
+    color: #c81623;
+}
+.box_bd{
+    width: 1200px;
+    height: 361px;
+}
+.tad_list_item>div{
+    float: left;
+}
+.col_210{
+    width: 210px;
+    text-align: center;
+}
+.col_329{
+    width: 329px;
+}
+.col_221{
+    width: 221px;
+    border-right: 1px solid #ededed;
+}
+.col_221 a img{
+    border-bottom: 1px solid #ededed;
+}
+.col_219{
+    width: 219px;
+    border-right: 1px solid #ededed;
+}
+.col_219 a img{
+    border-bottom: 1px solid #ededed;
+}
+.col_210 ul li{
+    float: left;
+    width: 86px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    margin: 0 5px ;
+    border-bottom: 1px solid #ededed;
+}
+.shouji{
+    margin-top: 30px;
+}
+.diannao{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* 楼层区floor结束 */
